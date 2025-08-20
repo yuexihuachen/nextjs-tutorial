@@ -1,8 +1,3 @@
-/**
- * 动态路由
- * @param params 参数
- * @returns 
- */
 export default async function ProductDetails({params}: {
     params: Promise<{ productId: string }>;
 }) {
